@@ -1,0 +1,66 @@
+:root{
+    --main-color:#011C44;
+    --color-brand: #2B7FFF;
+    --white-color:#ffffff;  
+}
+ul{
+    list-style-type: none;
+}
+.call__button{
+    color:var(--white-color);
+    background-color:var(--color-brand);
+    border: 2px solid var(--color-brand);
+    border-radius: 32px;
+    width: 219px;
+    height: 53px;
+    padding: 16px, 32px, 16px, 32px;
+    
+}
+.call__button:hover{
+    color:var(--color-brand) ;
+    background-color: transparent;
+}
+.header_nav1{
+    color:var(--main-color);
+}
+.header_nav1:hover{
+    color: var(--color-brand);
+}
+h1{
+    color: var(--color-brand);
+}
+
+.text__aria .blue{
+    color: var(--color-brand);
+}
+.second_paragraph .bold{
+font-size: 22px;
+font-weight: bold;
+}
+
+.why__we-hed .blue{
+    color: var(--color-brand);
+}
+.our__procide .blue{
+    color: var(--color-brand);
+}
+.reservation .blue{
+ color: var(--color-brand);
+}
+.imut_aria{
+    color:var(--white-color);
+    border: 1px solid #747272;
+    border-radius: 32px;
+    width: 310px;
+    height: 52px;
+    background-color: var(--white-color);
+}
+.reservation__buton{
+    color:var(--white-color);
+    background-color:var(--color-brand);
+    border: 2px solid var(--color-brand);
+    border-radius: 32px;
+    width: 281px;
+    height: 53px;
+    padding: 16px, 32px, 16px, 32px;
+}
